@@ -73,13 +73,16 @@ It offers a great introduction to:
         make
 
 5. Run the game:  
-    Mandelbrot set:  
+    Mandelbrot set:
+   
                     ./fractol mandelbrot
    
-    julia set:  
+    julia set:
+   
                     ./fractol julia <imaginair> <real>
    
-    burning_ship set:  
+    burning_ship set:
+   
                     ./fractol burning_ship
    
 
