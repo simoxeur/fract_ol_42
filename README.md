@@ -79,7 +79,7 @@ It offers a great introduction to:
    
     julia set:
    
-                    ./fractol julia <imaginair> <real>
+                    ./fractol julia <real> <imaginary>
    
     burning_ship set:
    
