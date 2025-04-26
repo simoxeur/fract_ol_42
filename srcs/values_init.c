@@ -14,8 +14,8 @@
 
 void	limits_init(t_fractal *fract)
 {
-	if (!ft_strncmp(fract->name, "Mandelbrot", 10)
-		|| !ft_strncmp(fract->name, "Julia", 5))
+	if (!ft_strncmp(fract->name, "mandelbrot", 10)
+		|| !ft_strncmp(fract->name, "julia", 5))
 	{
 		fract->min_x = -2;
 		fract->max_x = 2;
@@ -39,7 +39,7 @@ void	values_init(char **argv, t_fractal *fract)
 	fract->x_move = 0;
 	fract->y_move = 0;
 	limits_init(fract);
-	if (!ft_strncmp(argv[1], "Julia", 5))
+	if (!ft_strncmp(argv[1], "julia", 5))
 	{
 		if (check_char(argv[2]) == -1 || check_char(argv[3]) == -1)
 			return (putstr_fd(ERROR_JULIA, 2), exit(1));
@@ -47,7 +47,7 @@ void	values_init(char **argv, t_fractal *fract)
 		fract->julia_x = atoa_double(argv[2]);
 		fract->julia_y = atoa_double(argv[3]);
 	}
-	if (!ft_strncmp(argv[1], "Mandelbrot", 10))
+	if (!ft_strncmp(argv[1], "mandelbrot", 10))
 		fract->n = 'm';
 	if (!ft_strncmp(argv[1], "burning_ship", 12))
 		fract->n = 'b';

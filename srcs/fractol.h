@@ -26,8 +26,8 @@
 # define HEIGHT 600
 # define WIDTH 600
 
-# define ERROR_MSG "Available :\n\033[0;31m./fractol Mandelbrot\n\
-\033[0;31m./fractol burning_ship\n\033[0;31m./fractol Julia <i> <z>\n"
+# define ERROR_MSG "Available :\n\033[0;31m./fractol mandelbrot\n\
+\033[0;31m./fractol burning_ship\n\033[0;31m./fractol julia <i> <z>\n"
 
 # define ERROR_JULIA "\033[0;31mFor Julia use real numbers in correct \
 way as arguments\n"

@@ -74,7 +74,7 @@ int	key_input(int key, t_fractal *fract)
 {
 	if (key == XK_Up || key == XK_Down || key == XK_Left || key == XK_Right)
 		move_view(key, fract);
-	if (key == XK_p || key == XK_plus || key == XK_minus)
+	if (key == XK_p || key == XK_plus || key == XK_minus || key == XK_m)
 		iter_shift(key, fract);
 	if (key == XK_Escape)
 		closing(fract);

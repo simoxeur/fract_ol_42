@@ -16,9 +16,9 @@ int	main(int argc, char **argv)
 {
 	t_fractal	fract;
 
-	if ((argc == 2 && (!ft_strncmp(argv[1], "Mandelbrot", 10)
+	if ((argc == 2 && (!ft_strncmp(argv[1], "mandelbrot", 10)
 				|| (!ft_strncmp(argv[1], "burning_ship", 12))))
-		|| (argc == 4 && !ft_strncmp(argv[1], "Julia", 5)))
+		|| (argc == 4 && !ft_strncmp(argv[1], "julia", 5)))
 	{
 		values_init(argv, &fract);
 		initialisation(&fract);
