@@ -1,4 +1,4 @@
-# Mini-Pacman 🎮
+# Fracto-ol
 
 
 fract-ol 42 project
